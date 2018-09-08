@@ -11,8 +11,8 @@ matrix.getQueue()
 
 // var step = 2*Math.PI/20;  // see note 1
 var step = 0.05;  // see note 1
-var h = 420;
-var k = 150;
+var h = 250;
+var k = 250;
 var r = 50;
 
 // for (var i = r; i > 0; i--) {
@@ -27,10 +27,10 @@ var r = 50;
 // }
 
 // console.log(matrix.getQueue())
-matrix.clearQueue()
-/*
-for (var x = 310; x < 360; x++) {
-  for (var y = 10; y < 40; y++) {
+// matrix.clearQueue()
+// /*
+for (var x = 13; x < 38; x++) {
+  for (var y = 208; y < 483; y++) {
     matrix.setTile({x: x, y: y, c: "3498DB"})
     .then(resp => console.log(resp))
   }
@@ -38,7 +38,7 @@ for (var x = 310; x < 360; x++) {
 // */
 
 
-// /*
+/*
 for (var i = r; i > 0; i--) {
   for(var theta=0; theta < 2*Math.PI;  theta+=step){
     console.log('theta:', theta)
@@ -49,4 +49,4 @@ for (var i = r; i > 0; i--) {
     console.log(' ')
   }
 }
-// */
+*/
