@@ -9,8 +9,8 @@ matrix.getQueue()
   })
 
 
-// var step = 2*Math.PI/20;  // see note 1
-var step = 0.05;  // see note 1
+// var step = 2*Math.PI/20;
+var step = 0.05;
 var h = 420;
 var k = 150;
 var r = 50;
