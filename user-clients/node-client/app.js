@@ -36,17 +36,3 @@ for (var x = 310; x < 360; x++) {
   }
 }
 // */
-
-
-// /*
-for (var i = r; i > 0; i--) {
-  for(var theta=0; theta < 2*Math.PI;  theta+=step){
-    console.log('theta:', theta)
-    var x = h + r*Math.cos(theta);
-    var y = k - r*Math.sin(theta);    //note 2.
-    matrix.setTile({x: Math.floor(x), y: Math.floor(y), c: "3498DB"})
-    console.log('COORDS',Math.floor(x), Math.floor(y))
-    console.log(' ')
-  }
-}
-// */
